@@ -57,9 +57,9 @@ Contains the function `checkWinner`, which checks for any winning combinations o
    git clone <repository-url>
 
 2. **Install Dependancies**:
-    ``bash
+    ```bash
     npm install
 
 3. **Run the App**:
-    ``bash
+    ```bash
     npm start
