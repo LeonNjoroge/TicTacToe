@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TicTacToe",
-    "slug": "TicTacToe",
+    "slug": "tic-tac-toe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +12,30 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.leon005.tictactoe"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.leon005.tictactoe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4d3e11a-785b-4c11-bd32-4bc00a81a87e"
+      }
+    },
+    "owner": "leon005",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d4d3e11a-785b-4c11-bd32-4bc00a81a87e"
     }
   }
 }
